@@ -1,14 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HangmanLogic.Library.GameFlux
+﻿namespace HangmanLogic.Library.GameFlux
 {
     public class HangmanFlux : IHangmanFlux
     {
-        public void SetOpts() { }
-        public void Init() { }
+        public void SetOpts()
+        {
+            throw new NotImplementedException();
+        }
+        public void Init()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

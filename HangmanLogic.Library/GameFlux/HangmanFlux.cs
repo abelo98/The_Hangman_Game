@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HangmanLogic.Library.GameFlux
 {
-    internal class HangmanFlux
+    public class HangmanFlux : IHangmanFlux
     {
+        public void SetOpts() { }
+        public void Init() { }
     }
 }
